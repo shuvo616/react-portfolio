@@ -1,0 +1,85 @@
+.skill_section{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: #0C0E27;
+}
+.styleSkill{
+    padding: 16px;
+    box-shadow: 1px 2px 8px 2px #070115;
+}
+
+.left_skill{
+    width: 100%;
+}
+.centerDiv{}
+.centerDiv h6{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ddd;
+    font-weight: 800;
+    font-size: 19px;
+}
+.centerDiv p{
+    color: #989393dd;
+    font-family: verdana;
+    font-size: 14px;
+}
+
+.right_skill{
+    width: 100%;
+}
+.skill1{
+    margin-bottom: 12px;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    font-size: 16px;
+    color: #363958;
+}
+.skill1 p{
+    margin-bottom: 6px;
+    color: #fff;
+}
+.skill_bg{
+    background-color: #363958;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 10px;
+}
+.skil_percent{
+    background-image: linear-gradient(90deg ,#FF4A57, #ac595e);
+    position: absolute;
+    height: 20px;
+    width: 98%;
+    text-align: center;
+    border-radius: 10px;
+}
+.skil_percent p{
+    color: #fff;
+}
+.text1{
+   color:#fff;
+}
+.text2{
+    color: #FF4A57;
+}
+.width2{
+    width: 88% !important;
+    text-align: center;
+}
+
+.width3{
+    width: 70% !important;
+    text-align: center;
+}
+.width4{
+    width: 65% !important;
+    text-align: center;
+}
+.width5{
+    width: 40% !important;
+    text-align: center;
+}
+.width6{
+    width: 40% !important;
+    text-align: center;
+}
