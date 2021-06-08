@@ -1,6 +1,7 @@
 import React from 'react';
 import football from '../../image/football.PNG'
 import firebase from '../../image/firebase.png'
+import Shangrila from '../../image/Shangrila.PNG'
 import './ReactProject.css'
 
 
@@ -10,6 +11,9 @@ const euroClubCode = 'https://github.com/Porgramming-Hero-web-course/react-route
 
 const cityrider ='https://city-riders-28ab6.web.app/';
 const cityriderCode ='https://github.com/shuvo616/City-Riders';
+
+const restaurant = 'https://fresh-food-9389b.web.app/';
+const restaurantCode = 'https://github.com/shuvo616/Shangrila-Restaurant';
 
 
 const ReactProject = () => {
@@ -39,6 +43,18 @@ const ReactProject = () => {
                             <p>React, React Router, Bootstrap,  Firebase, Heroku.</p>
                             <a className="viewBtn"  href={cityrider} target="_blank">View Site</a>
                             <a className="codeBtn" href={cityriderCode} target="_blank">Source Code</a>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4 col-sm-12" >
+                        <div className="cardSection">
+                            <img src={Shangrila} alt="" />
+                            <h4>Shangrila Restaurant </h4>
+                            <p> Shangri La is a restaurant with delicious food items. Users can book a table by reservation for breakfast, lunch, and dinner. He could get better food ideas in our gallery and banner sections and could give feedback about foods.</p>
+                            <h4>Technology</h4>
+                            <p>React, Redux, React Router, Bootstrap,  Firebase, Heroku.</p>
+                            <a className="viewBtn"  href={restaurant} target="_blank">View Site</a>
+                            <a className="codeBtn" href={restaurantCode} target="_blank">Source Code</a>
                         </div>
                     </div>
 

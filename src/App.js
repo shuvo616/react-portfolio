@@ -1,13 +1,12 @@
 import React from "react";
 import Home from './components/Home/Home';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from "./components/Header/Header";
 import NoMatch from "./components/NoMatch/NoMatch";
 import ReactProject from "./components/ReactProject/ReactProject";
 import JavascriptProject from "./components/JavascriptProject/JavascriptProject";
 import Skill from "./components/Skill/Skill";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
 import MongoDb from "./components/MongoDb/MongoDb";
 import MyProject from "./components/MyProject/MyProject";
 import Service from "./components/Service/Service";
